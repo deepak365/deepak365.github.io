@@ -74,8 +74,8 @@ function onleave(e){
 }
 			
 function onmove(e){
-	var x=(window.event.clientX);
-	var y=(window.event.clientY);
+	var x=(e.clientX);
+	var y=(e.clientY);
 	var f = 0;
 	var m=$('.eyeball');
 	var ymin = $('#body').offset().top;
