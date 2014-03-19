@@ -1,0 +1,484 @@
+	.desiman {
+		width:0px;
+		height:0px;
+		background-color: white;
+		cursor: pointer;
+	}
+	
+	.cap{
+		position:relative;
+		width: 0; 
+		height: 0;
+			
+		border-left: 55px solid transparent;
+		border-right: 55px solid transparent;
+		border-bottom: 30px solid black;
+		
+	}
+	.head{
+		margin-top: -5px;
+		position: relative;
+		width: 104px;
+		height: 85px;
+		border-bottom-left-radius: 20px;
+		border-bottom-right-radius: 20px;
+		border-top-right-radius: 20px;
+		border-top-left-radius: 20px;
+		border: 1px solid black;
+		border-bottom: 5px solid black;
+		border-left: 3px solid black;
+		border-right: 3px solid black;
+	}
+	
+	.body{
+		position: relative;
+		width: 120px;
+		height: 100px;
+		left: -9px;
+		top:3px;
+		border: 3px solid black;
+		border-radius: 5px;
+	}
+	
+	.hands{
+	   margin-left: -78px;
+		width: 65px;
+		height: 130px;
+		float: left;
+		margin-top: 3px;
+	}
+	   	
+	
+	
+	.legs{
+		position: relative;
+		width: 100px;
+		height: 120px;
+		top: -18px;
+		left: 6px;
+						
+	}
+	.glass{
+		position:absolute;
+		width: 100px;
+		height: 30px;
+		top: 15px;
+		
+	}
+	
+	.nose{
+		position:absolute;
+		top:25px;
+		left:35px;
+		height:6px;
+		width: 3px; 
+		
+		border-left: 15px solid transparent;
+		border-right: 15px solid transparent;
+		border-bottom: 25px ridge black;
+		border-bottom-right-radius: 15px;
+		border-bottom-left-radius: 15px;
+	}
+	
+	.mouth-sad{
+		position: absolute;
+		top:64px;
+		left: 32px;
+	    width:40px;
+	    height: 20px;
+	    					
+		border-top-right-radius: 15px;
+		border-top-left-radius: 15px;
+		border:3px solid black;
+		border-bottom: 0px solid white;
+		border-left: 0px solid white;
+		border-right: 0px solid white;			 
+		
+	}
+	
+	
+	.mouth-happy{
+		position: absolute;
+		top:67px;
+		left: 22px;
+	    
+	    
+	    					
+		border-left:30px solid transparent;
+		border-right:30px solid transparent;
+		border-top:3px solid black;
+		border-top-left-radius: 80px;
+		border-top-right-radius: 80px;
+	}
+	.leftglass{
+		position: absolute;
+		left:10px;
+		width: 30px;
+		height: 30px;
+		
+		border-radius: 15px;
+		border: 1px solid black;
+	}
+	
+	.rightglass{
+		position: absolute;
+		left:60px;
+		width: 30px;
+		height: 30px;
+		border-radius: 15px;
+		
+		border: 1px solid black;
+	}
+	
+	.eye{
+		position: absolute;
+		left:4px;
+		top:7px;
+		width: 20px;
+		height: 14px;
+		border: 1px solid black;
+		border-radius: 10px;
+		
+	}
+	
+	.eyeball{
+		position: absolute;
+		left:5px;
+		top: 2px;
+		width: 9px;
+		height: 9px;
+		background-color: black;
+		border-radius: 4.5px;
+	}
+	
+	
+	
+	.main-connector{
+		position: absolute;
+		
+		left: 25px;
+		width: 50px;
+		height: 1px;
+		background-color:black;
+		
+	}
+	
+	.sub-connector{
+		position: absolute;
+		top:15px;
+		left: 40px;
+		width: 20px;
+		height: 2px;
+		background-color:black;
+	}
+	
+	.left-connector{
+		position: absolute;
+		top:9px;
+		left:-7px;
+		background-color: black;
+		width: 20px;
+		height: 2px;
+		-webkit-transform:rotate(45deg); /* Safari and Chrome */
+		transform:skewX(45deg);
+	
+	}
+	
+	.right-connector{
+		position: absolute;
+		top:9px;
+		left:88px;
+		background-color: black;
+		width: 20px;
+		height: 2px;
+		-webkit-transform:rotate(130deg); /* Safari and Chrome */
+	}
+	
+	.left-ear{
+		position: relative;
+		margin-left: -13px;
+		margin-top: 10px;
+		float: left;
+		width: 12px;
+		height: 15px;
+		border: 1px solid black;
+		border-top-right-radius: 300px;
+		border-bottom-right-radius: 300px;
+		border-top-left-radius: 225px;
+		border-bottom-left-radius: 225px;
+		border-left: 0px solid white;
+		border-top-style: groove;
+		border-top: 3px solid black;
+		border-bottom: 5px solid black;
+		border-right: 4px solid black;
+	}
+	
+	.right-ear{
+		position: relative;
+		float: right;
+		top: -25px;
+		left: 125px;
+		width: 12px;
+		height: 15px;
+		border: 1px solid black;
+		border-top-left-radius: 300px;
+		border-bottom-left-radius: 300px;
+		border-top-right-radius: 225px;
+		border-bottom-right-radius: 225px;
+		border-right: 0px solid white;
+		border-top-style: groove;
+		border-top: 3px solid black;
+		border-bottom: 5px solid black;
+		border-left: 4px solid black;
+	}
+	
+	.middle-leftear{
+		 position:absolute;	
+		 top:4px;
+		 width: 8px;
+		 height: 8px;
+		 background-color: black;
+		 border-radius: 4px;
+		 	
+	}
+	
+	.middle-rightear{
+		 position:absolute;	
+		 top:4px;
+		 left:4px;
+		 width: 8px;
+		 height: 8px;
+		 background-color: black;
+		 border-radius: 4px;
+	 	
+	}
+	
+	.pocket{
+		position:absolute;
+		top:20px;
+		height: 25px;
+		width:20px;
+		border-top-left-radius:3px;
+		border-top-right-radius:3px;
+		border: 2px solid black;
+		
+	}
+	
+	.left{
+		left:10px;
+	}
+	
+	.right{
+		left:80px;
+	}
+	
+	.left{
+		float: left;
+	}
+	.upper{
+		margin-left:5px;
+		width:30px;
+		height: 50px;
+		border: 3px solid black;
+		border-radius: 4px;
+	}
+	
+	.middle{
+		margin-top:3px;
+		margin-left:12px;
+		width:20px;
+		height: 30px;
+		background-color: black;
+		border-radius: 4px;
+	}
+	
+	.middle1{
+		width:30px;
+		height:15px;
+		margin-top:3px;
+		margin-left:8px;
+		
+		background-color: black;
+		border-radius: 4px;
+	}
+	
+	.toa{
+		margin-top:3px;
+		width:40px;
+		height: 20px;
+		border: 3px solid black;
+		border-radius: 4px;
+	}
+	
+	.left-leg{
+		float: left;
+	}
+	
+	.right-leg{
+		float: right;
+		margin-right: 5px;
+		
+	}
+	
+	.rightside{
+		margin-left: 88px;
+	}
+	
+	.upper-hand{
+		width: 15px;
+		height: 55px;
+		border:2px solid black;
+		float: right;
+		margin-right:6px;
+		border-radius: 4px;
+		-webkit-transform:rotate(20deg); /* Safari and Chrome */
+	}
+	
+	.upper-hand1{
+		width: 15px;
+		height: 45px;
+		background-color:black;
+		float: right;
+		margin-right:0px;
+		border-radius: 4px;
+		
+	}
+	
+	
+	.upper-righthand{
+		width: 15px;
+		height: 55px;
+		border:2px solid black;
+		float: right;
+		margin-right:6px;
+		border-radius: 4px;
+		-webkit-transform:rotate(160deg); /* Safari and Chrome */
+	}
+	
+	.upper-righthand1{
+		width: 15px;
+		height: 45px;
+		background-color:black;
+		float: right;
+		margin-right:15px;
+		border-radius: 4px;
+		
+	}
+	
+	.middle-hand{
+		margin-top:61px;
+		width: 15px;
+		height: 55px;
+		border:2px solid black;
+		margin-left:33px;
+		
+		border-radius: 4px;
+		
+	}
+	
+	.middle-hand1{
+		margin-top:60px;
+		-webkit-transform-origin:0% 0%;
+		width: 15px;
+		height: 55px;
+		background-color:black;
+		margin-left:62px;
+		-webkit-transform:rotate(270deg); /* Safari and Chrome */
+		border-radius: 4px;
+		
+	}
+	
+	.middle-righthand{
+		margin-top:61px;
+		
+		width: 15px;
+		height: 45px;
+		border:2px solid black;
+		margin-left:50px;
+		
+		border-radius: 4px;
+		
+	}
+	
+	.middle-righthand1{
+		margin-top:45px;
+		-webkit-transform-origin:0% 0%;
+		width: 15px;
+		height: 55px;
+		background-color:black;
+		margin-left:38px;
+		-webkit-transform:rotate(90deg); /* Safari and Chrome */
+		border-radius: 4px;
+		
+	}
+	
+	
+	.lower-hand{
+		margin-top:3px;
+		
+		margin-left:33px;
+		
+		width: 0; 
+		height: 0; 
+		border-left: 8px solid transparent;
+		border-right: 8px solid transparent;
+		border-top: 10px solid black;
+		
+	}
+	
+	.lower-hand1{
+		margin-top:-80px;			
+		margin-left:120px;
+		
+		width: 4px; 
+		height: 0; 
+		border-left: 8px solid transparent;
+		border-right: 8px solid transparent;
+		border-top: 25px solid black;
+		-webkit-transform:rotate(180deg); /* Safari and Chrome */
+	}
+	
+	
+	.lower-righthand{
+		margin-top:3px;
+		
+		margin-left:50px;
+		
+		width: 0; 
+		height: 0; 
+		border-left: 8px solid transparent;
+		border-right: 8px solid transparent;
+		border-top: 10px solid black;
+	}
+	
+	.lower-righthand1{
+		margin-top:-65px;			
+		margin-left:-40px;
+		
+		width: 4px; 
+		height: 0; 
+		border-left: 8px solid transparent;
+		border-right: 8px solid transparent;
+		border-top: 25px solid black;
+		-webkit-transform:rotate(180deg); /* Safari and Chrome */
+	}
+	
+	
+	@-webkit-keyframes namaste {
+	 from {
+	   opacity: 0.0;
+	   font-size: 100%;
+	 }
+	 to {
+	   opacity: 1.0;
+	   font-size: 300%;
+	 }
+	}
+	
+	#namaste {
+	  -webkit-animation-name: namaste;
+	  -webkit-animation-duration: 1s;
+	  -webkit-animation-iteration-count: 1;
+	  -webkit-animation-timing-function: ease-in-out;
+	  -webkit-animation-direction: alternate;
+	}
